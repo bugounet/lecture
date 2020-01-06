@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
-import * from .secret
+from .secret import *
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 from django.conf.global_settings import MEDIA_ROOT
 
